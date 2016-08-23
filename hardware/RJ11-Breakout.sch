@@ -17481,7 +17481,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
-<part name="H2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="H1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="H3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17499,7 +17500,8 @@ https://en.wikipedia.org/wiki/Registered_jack</text>
 <instance part="LOGO1" gate="G$1" x="86.36" y="2.54"/>
 <instance part="LOGO2" gate="G$1" x="86.36" y="2.54"/>
 <instance part="LOGO3" gate="G$1" x="68.58" y="12.7"/>
-<instance part="H2" gate="G$1" x="238.76" y="40.64"/>
+<instance part="H1" gate="G$1" x="246.38" y="40.64"/>
+<instance part="H3" gate="G$1" x="241.3" y="40.64"/>
 </instances>
 <busses>
 </busses>

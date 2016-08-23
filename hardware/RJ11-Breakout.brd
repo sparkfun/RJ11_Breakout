@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -174,7 +174,7 @@
 <text x="6.223" y="3.81" size="1.524" layer="22" font="vector" ratio="15" rot="SMR0" align="center">4</text>
 <text x="3.683" y="3.81" size="1.524" layer="22" font="vector" ratio="15" rot="SMR0" align="center">5</text>
 <text x="1.143" y="3.81" size="1.524" layer="22" font="vector" ratio="15" rot="SMR0" align="center">6</text>
-<text x="1.651" y="9.398" size="1.27" layer="16" font="vector" ratio="20" rot="MR270">V1.0</text>
+<text x="1.651" y="9.398" size="1.27" layer="16" font="vector" ratio="20" rot="MR270">V10</text>
 <dimension x1="15.24" y1="0" x2="15.24" y2="20.32" x3="33.02" y3="10.16" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0.762" y1="20.447" x2="0.762" y2="23.368" x3="-2.54" y3="21.9075" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0.762" y1="23.368" x2="14.478" y2="23.368" x3="7.62" y3="25.4" textsize="1.27" textratio="15" layer="47" unit="inch"/>
@@ -184,8 +184,8 @@
 <wire x1="21.59" y1="20.32" x2="21.59" y2="0" width="0.2032" layer="20"/>
 <wire x1="21.59" y1="0" x2="15.748" y2="0" width="0.2032" layer="20"/>
 <wire x1="15.748" y1="0" x2="15.748" y2="20.32" width="0.2032" layer="20"/>
-<text x="15.6972" y="21.4884" size="0.3048" layer="51" font="vector" ratio="15" align="top-left">V-score for the end user if they want to remove</text>
-<text x="15.7734" y="21.8948" size="1.016" layer="51" font="vector" ratio="15">Don't cut v-score in production!</text>
+<text x="15.6972" y="21.4884" size="0.3048" layer="20" font="vector" ratio="15" align="top-left">V-score for the end user if they want to remove</text>
+<text x="15.7734" y="21.8948" size="1.016" layer="20" font="vector" ratio="15">Please v-score</text>
 <dimension x1="18.669" y1="2.794" x2="18.669" y2="0" x3="24.13" y3="1.397" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="18.669" y1="17.399" x2="18.669" y2="0" x3="27.94" y3="8.6995" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="15.24" y2="0" x3="7.62" y3="-3.81" textsize="1.27" textratio="15" layer="47" unit="inch"/>
@@ -1734,8 +1734,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="1.778" y="19.812" rot="MR180"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="13.589" y="19.812" rot="R180"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="12.7" y="8.89" rot="MR180"/>
-<element name="H2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="18.669" y="17.399"/>
-<element name="H4" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="18.669" y="2.794"/>
+<element name="H1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="18.669" y="2.794"/>
+<element name="H3" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="18.669" y="17.399"/>
 </elements>
 <signals>
 <signal name="WHITE">

@@ -17483,6 +17483,13 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
 <part name="H1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="RJ11-6" device="PTH" value="RJ11"/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH" value="Pins"/>
+<part name="H2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="H4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="LOGO6" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
 </parts>
 <sheets>
 <sheet>
@@ -17500,45 +17507,76 @@ https://en.wikipedia.org/wiki/Registered_jack</text>
 <instance part="LOGO1" gate="G$1" x="86.36" y="2.54"/>
 <instance part="LOGO2" gate="G$1" x="86.36" y="2.54"/>
 <instance part="LOGO3" gate="G$1" x="68.58" y="12.7"/>
-<instance part="H1" gate="G$1" x="246.38" y="40.64"/>
-<instance part="H3" gate="G$1" x="241.3" y="40.64"/>
+<instance part="H1" gate="G$1" x="246.38" y="43.18"/>
+<instance part="H3" gate="G$1" x="241.3" y="43.18"/>
+<instance part="JP3" gate="G$1" x="111.76" y="129.54"/>
+<instance part="JP4" gate="G$1" x="139.7" y="129.54" rot="MR0"/>
+<instance part="H2" gate="G$1" x="241.3" y="38.1"/>
+<instance part="H4" gate="G$1" x="246.38" y="38.1"/>
+<instance part="LOGO4" gate="G$1" x="86.36" y="2.54"/>
+<instance part="LOGO5" gate="G$1" x="86.36" y="2.54"/>
+<instance part="LOGO6" gate="G$1" x="68.58" y="12.7"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="WHITE" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
-<label x="121.92" y="96.52" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<label x="121.92" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BLACK" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
-<label x="121.92" y="99.06" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<label x="121.92" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RED" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
-<wire x1="134.62" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
-<label x="121.92" y="101.6" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="JP4" gate="G$1" pin="3"/>
+<wire x1="134.62" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<label x="121.92" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GREEN" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="4"/>
-<pinref part="JP2" gate="G$1" pin="4"/>
-<wire x1="134.62" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
-<label x="121.92" y="104.14" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="4"/>
+<pinref part="JP4" gate="G$1" pin="4"/>
+<wire x1="134.62" y1="132.08" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
+<label x="121.92" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="YELLOW" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="5"/>
+<pinref part="JP4" gate="G$1" pin="5"/>
+<wire x1="134.62" y1="134.62" x2="116.84" y2="134.62" width="0.1524" layer="91"/>
+<label x="121.92" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BLUE" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="6"/>
+<pinref part="JP4" gate="G$1" pin="6"/>
+<wire x1="134.62" y1="137.16" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
+<label x="121.92" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BLUE-2" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="6"/>
+<pinref part="JP2" gate="G$1" pin="6"/>
+<wire x1="134.62" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<label x="121.92" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="YELLOW-2" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
 <pinref part="JP2" gate="G$1" pin="5"/>
@@ -17546,12 +17584,36 @@ https://en.wikipedia.org/wiki/Registered_jack</text>
 <label x="121.92" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BLUE" class="0">
+<net name="GREEN-2" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
-<pinref part="JP2" gate="G$1" pin="6"/>
-<wire x1="134.62" y1="109.22" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
-<label x="121.92" y="109.22" size="1.778" layer="95"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<pinref part="JP2" gate="G$1" pin="4"/>
+<wire x1="134.62" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
+<label x="121.92" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RED-2" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="134.62" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<label x="121.92" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BLACK-2" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
+<label x="121.92" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="WHITE-2" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
+<label x="121.92" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
